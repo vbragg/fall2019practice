@@ -11,3 +11,7 @@
   </head>
 
 <body> <!--leave body open in header.php because you have seperate files for index, will be closed in footer.php -->
+  <header class-"container">
+    <h1>Hello World!</h1>
+
+  </header>

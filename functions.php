@@ -20,7 +20,7 @@ wp_enqueue_style('main-styles', get_stylesheet_uri());
 //Javascript filesize
 
 wp_enqueue_script('custom-js',  get_template_directory_uri() . '/js/main.js');
-wp_enqueue_script('bootstrap-js',  get_template_directory_uri() . '/js/bootstrap.min.js');
+//wp_enqueue_script('bootstrap-js',  get_template_directory_uri() . '/js/bootstrap.min.js');
 
 }
 
