@@ -16,7 +16,8 @@ h1 {
 /**************INDEX.PHP TEMPLATE*********************/
 
 .post-featured-image img {
-max-width: 300px; 
+max-width: 300px;
+padding-top: 5px; 
 }
 
 /**************UNIVERSAL STYLING*********************/
