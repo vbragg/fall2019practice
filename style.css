@@ -21,7 +21,7 @@ font-family: 'Montserrat', sans-serif;
 
 .post-featured-image img {
 max-width: 300px;
-padding-top: 5px;
+padding: 5px 0;
 }
 
 /**************UNIVERSAL STYLING*********************/
@@ -54,7 +54,7 @@ h1 a:hover {
 /***************FOOTER STYLING*************/
 footer {
   text-align: center;
-  padding: 5%;
+  padding: 3%;
   background-color: black;
-  color: white; 
+  color: white;
 }
