@@ -10,5 +10,18 @@ Text Domain: Legacy Hospitality
 */
 
 h1 {
-  color: blue;
+  color: pink;
+}
+
+/**************INDEX.PHP TEMPLATE*********************/
+
+.post-featured-image img {
+  max-width: 100px;
+}
+
+/**************UNIVERSAL STYLING*********************/
+
+
+.bold {
+  font-weight: bold;
 }

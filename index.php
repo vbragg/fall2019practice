@@ -6,14 +6,16 @@
       while(have_posts()){
         thepost(); ?>
         <div class="col-md-3">
-          <?php $title = get_the_title(); ?>
-          <h3><?php echo $title; ?></h3>
+          <h3><?php the_title(); ?></h3>
 
           <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author();?></p>
 
           <?php the_date(); ?>
           <?php the_author(); ?>
 
+          <div class="post-featured-image">
+            <?php the_post_thumbnail('thumbnail'); ?>
+          </div>
           <?php the_excerpt(); ?>
 
 
@@ -24,6 +26,7 @@
     }// ends if statement
 
      ?>
+</div>
 </div>
 
 
