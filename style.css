@@ -9,15 +9,19 @@ Text Domain: Legacy Hospitality
 
 */
 
-h1 {
-  color: blue;
-}
+/*
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
 
 /**************INDEX.PHP TEMPLATE*********************/
 
 .post-featured-image img {
 max-width: 300px;
-padding-top: 5px; 
+padding-top: 5px;
 }
 
 /**************UNIVERSAL STYLING*********************/
@@ -25,4 +29,22 @@ padding-top: 5px;
 
 .bold {
   font-weight: bold;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.post-information {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .825rem;
+}
+
+h1 a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }

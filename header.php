@@ -7,6 +7,9 @@
     <!--Link to bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Link to Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
     <!--Link to style.css file-->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 
@@ -16,7 +19,7 @@
 <body> <!--leave body open in header.php because you have seperate files for index, will be closed in footer.php -->
   <header class-"container">
     <div class="mx-auto py-4" style="width: 250px;">
-      <h1><a href = "index.html">Hello World!</a></h1>
+      <h1><a href = "../../../../index.php">Hello World!</a></h1>
     </div>
 
   </header>
