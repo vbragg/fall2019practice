@@ -4,7 +4,7 @@
     <?php
     if(have_posts()){
       while(have_posts()){
-        thepost(); ?>
+        the_post(); ?>
         <div class="col-md-3">
           <h3><?php the_title(); ?></h3>
 
@@ -19,7 +19,7 @@
           <?php the_excerpt(); ?>
 
 
-          <a class="btn btn-primary btn-sm" href="<?php the_permalnk(); ?>">Read More</a>
+          <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More</a>
         </div>
 
     <?php  }// this is the end of the while loop
