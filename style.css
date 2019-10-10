@@ -16,8 +16,7 @@ h1 {
 /**************INDEX.PHP TEMPLATE*********************/
 
 .post-featured-image img {
-  max-width: 300px;
-  display: block; 
+  display: block;
   margin: auto;
 }
 
