@@ -17,6 +17,8 @@ h1 {
 
 .post-featured-image img {
   max-width: 300px;
+  display: block; 
+  margin: auto;
 }
 
 /**************UNIVERSAL STYLING*********************/
