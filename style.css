@@ -32,12 +32,14 @@ padding-top: 5px;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
 }
 
-.post-information {
+.content {
   font-family: 'Montserrat', sans-serif;
   font-size: .825rem;
+  color: gray;
 }
 
 h1 a:link {
@@ -45,6 +47,14 @@ h1 a:link {
     color: black;
 }
 
-a:hover {
+h1 a:hover {
   text-decoration: underline;
+}
+
+/***************FOOTER STYLING*************/
+footer {
+  text-align: center;
+  padding: 5%;
+  background-color: black;
+  color: white; 
 }

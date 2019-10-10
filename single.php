@@ -12,7 +12,9 @@
 
             <p class="post-information"><?php echo "<span class='bold'>Published </span>" . get_the_date(); echo " | <span class= 'bold'>Written by: </span>" . get_the_author(); ?></p>
 
-            <?php the_content(); ?>
+            <div class = "content">
+              <?php the_content(); ?>
+            </div>
         <?php  }//ends while loop
         }//ends th if statement
        ?>
