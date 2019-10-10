@@ -4,9 +4,9 @@
     <mta charset="utf-9" />
     <title><?php bloginfo('name'); ?> </title> <!--whatever is yoru title in the site settings will insert it inbetween these title tags-->
 
-    <!--Link to bootstrap-->
+    <!--Link to bootstrap
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+-->
     <!--Link to Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
 
