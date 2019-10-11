@@ -16,7 +16,7 @@
 <body> <!--leave body open in header.php because you have seperate files for index, will be closed in footer.php -->
   <header class-"container">
     <div class="mx-auto py-4" style="width: 250px;">
-      <h1><a href = "<?php get_home_url(); ?>">Hello World!</a></h1>
+      <h1><a href = "<?php echo get_home_url(); ?>">Hello World!</a></h1>
     </div>
 
   </header>

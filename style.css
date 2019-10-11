@@ -16,13 +16,18 @@ font-family: 'Montserrat', sans-serif;
 
 */
 
+/**************HEADER.PHP TEMPLATE*********************/
+header {
+  background-color: pink; 
+}
+
 
 /**************INDEX.PHP TEMPLATE*********************/
 
 .post-featured-image img {
 max-width: 300px;
 padding: 5px 0;
-object-fit: contain; 
+object-fit: contain;
 }
 
 /**************UNIVERSAL STYLING*********************/
