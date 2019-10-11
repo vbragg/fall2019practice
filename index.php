@@ -6,7 +6,9 @@
       while(have_posts()){
         the_post(); ?>
         <div class="col-md-4">
-          <h3><?php the_title(); ?></h3>
+          <div class= "post-padding">
+            <h3><?php the_title(); ?></h3>
+          </div> 
 
           <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author();?></p>
 

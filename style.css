@@ -18,7 +18,7 @@ font-family: 'Montserrat', sans-serif;
 
 /**************HEADER.PHP TEMPLATE*********************/
 header {
-  background-color: pink; 
+  background-color: pink;
 }
 
 
@@ -28,6 +28,10 @@ header {
 max-width: 300px;
 padding: 5px 0;
 object-fit: contain;
+}
+
+.post-padding {
+  padding-top: 5%; 
 }
 
 /**************UNIVERSAL STYLING*********************/
