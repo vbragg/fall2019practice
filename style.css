@@ -31,7 +31,7 @@ object-fit: contain;
 }
 
 .post-padding {
-  padding-top: 5%; 
+  padding-top: 5%;
 }
 
 /**************UNIVERSAL STYLING*********************/
@@ -70,6 +70,6 @@ h1 a:hover {
 footer {
   text-align: center;
   padding: 3%;
-  background-color: black;
+  background-color: #36454F;
   color: white;
 }
