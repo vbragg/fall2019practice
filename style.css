@@ -19,8 +19,17 @@ font-family: 'Montserrat', sans-serif;
 /**************HEADER.PHP TEMPLATE*********************/
 header {
   background-color: pink;
+  padding: 30px 0;
 }
 
+.top-menu-class li {
+  display: inline;
+}
+
+.top-menu-class a {
+  color: black;
+  margin: 0 1rem;
+}
 
 /**************INDEX.PHP TEMPLATE*********************/
 
@@ -32,6 +41,36 @@ object-fit: contain;
 
 .post-padding {
   padding-top: 10%;
+}
+
+/**************HOME PAGE STYLING *********************/
+
+.widget-about-us {
+  margin: 40px 20px;
+}
+
+.widget-bottom-right #wp-calendar {
+  width: 100%;
+}
+
+.widget-bottom-right #wp-calendar th[scope="col"] {
+  background: #f2f2;
+  text-align: center;
+}
+
+.widget-bottom-right #wp-calendar td {
+  text-align: center;
+}
+
+.widget-bottom-left img, .widget-bottom-middle img {
+  min-width: 300px;
+  min-height: 200px;
+  object-fit: cover
+}
+
+/**************SINGLEPAGE STYLING *********************/
+.entry-title {
+  margin: 20px 0 10px;
 }
 
 /**************UNIVERSAL STYLING*********************/
@@ -65,10 +104,42 @@ h1 a:hover {
   text-decoration: underline;
 }
 
+body {
+  background: #f2f2f2;
+}
+
+.container {
+  background: white;
+}
+
+header .container {
+  background: transparent;
+  }
+
+
+  /************** ASIDE STYLING *********************/
+
+  aside {
+    background: #b3b3b3;
+  }
+
+aside .widget-default-sidebar,   aside .widget-left-sidebar,   aside .widget-right-sidebar {
+  margin: 20px;
+}
+
 /***************FOOTER STYLING*************/
 footer {
   text-align: center;
   padding: 3%;
   background-color: #36454F;
+  color: white;
+  padding: 50px 0;
+}
+
+footer .container {
+  background: transparent;
+}
+
+footer nav .menu a {
   color: white;
 }

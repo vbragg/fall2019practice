@@ -21,7 +21,7 @@
           <h1><a href = "<?php echo get_home_url(); ?>">Hello World!</a></h1>
         </div>
 
-        <div class="col-lg-6 d-flex align-items-center">
+        <div class="col-lg-6 d-flex align-items-center" id="top-menu">
           <nav>
             <?php
             //telling it to not create link for every single page, menu through WP dashboard
