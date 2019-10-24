@@ -112,6 +112,10 @@ body {
   background: white;
 }
 
+main {
+  min-height: 600px;
+}
+
 header .container {
   background: transparent;
   }
