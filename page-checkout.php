@@ -10,7 +10,7 @@ Template Post Type: page
 
 <div class="container">
   <div class="row">
-    <main class = "twelve columns single-content">
+    <div class = "twelve columns single-content">
       <?php
         if(have_posts()){
           while(have_posts()){
@@ -22,7 +22,7 @@ Template Post Type: page
         <?php  }//ends while loop
         }//ends th if statement
        ?>
-    </main>
+    </div>
   </div>
 </div>
 <?php get_footer(); ?>
