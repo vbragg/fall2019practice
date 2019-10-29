@@ -73,6 +73,10 @@ object-fit: contain;
   margin: 20px 0 10px;
 }
 
+ul.products li {
+  margin: 0 50px !important; 
+}
+
 /**************UNIVERSAL STYLING*********************/
 
 
