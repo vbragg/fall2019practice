@@ -11,7 +11,6 @@ Template Post Type: page
 <div class="container">
   <div class="row">
     <div class = "col-lg-12">
-      <main>
         <?php
           if(have_posts()){
             while(have_posts()){
@@ -23,7 +22,6 @@ Template Post Type: page
           <?php  }//ends while loop
           }//ends th if statement
          ?>
-     </main>
     </div>
   </div>
 </div>
