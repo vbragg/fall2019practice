@@ -125,7 +125,15 @@ ul.post-categories {
 .post-title a {
   color: white;
   text-decoration: none;
-  text-align: center; 
+}
+
+.post-title h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.post-info p {
+  display: inline;
 }
 
 /**************UNIVERSAL STYLING*********************/
