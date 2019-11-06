@@ -16,7 +16,7 @@
           <?php the_excerpt(); ?>
           <?php
             $archive_year = get_the_time('Y');
-            $archieve_month = get_the_time('m');
+            $archive_month = get_the_time('m');
             $archive_day = get_the_time('d');
            ?>
 
