@@ -12,6 +12,7 @@ get_header();
           the_post();?>
           <div class="col-md-12">
             <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+            <p><?php the_time('F j, Y'); ?></p>
           </div>
           <?php
         } //ends while loop
