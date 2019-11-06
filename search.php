@@ -11,9 +11,12 @@
             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <?php the_excerpt(); ?>
             <a href="<?php the_permalink() ?>">Read More...</a>
-          <?php 
+          <?php
           } //Ends while loop
-        } //Ends if statement
+        }else{?>
+          <h1>Nothing was Found</h1>
+          <p>Sorry but nothing matched your search criteria. Please try again with a different search term.</p><?php
+        }
       ?>
     </div>
   </div>
