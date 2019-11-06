@@ -11,7 +11,7 @@
             <p>Category: <?php the_category(); ?></p>
           </div>
 
-          <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>",<?php echo get_the_date(); ?></a></p>
+          <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
 
           <?php the_excerpt(); ?>
           <?php
