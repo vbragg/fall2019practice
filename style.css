@@ -93,7 +93,7 @@ object-fit: contain;
   padding: 20px 40px;
 }
 
-.col-md-12.individual-post:nth-child(odd) {
+.individual-post:nth-child(odd) {
     background: #ffe4e4;
 
 
