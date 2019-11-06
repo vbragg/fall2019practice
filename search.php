@@ -8,9 +8,10 @@
           <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
           <?php while(have_posts()){
             the_post(); ?>
-            <h2><?php the_title(); ?></h2>
-            <?php the_content();
-
+            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <?php the_excerpt(); ?>
+            <a href="<?php the_permalink() ?>">Read More...</a>
+          <?php 
           } //Ends while loop
         } //Ends if statement
       ?>
