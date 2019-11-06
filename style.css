@@ -120,7 +120,7 @@ ul.post-categories {
 
 .post-title {
   background: #6c6969;
-  padding: 5px 0; 
+  padding: 5px 0;
 }
 
 .post-title a {
@@ -135,6 +135,12 @@ ul.post-categories {
 
 .post-info p {
   display: inline;
+}
+
+/**************SEARCH  STYLING *********************/
+.search {
+  min-height: 600px;
+  padding: 25px 20px; 
 }
 
 /**************UNIVERSAL STYLING*********************/

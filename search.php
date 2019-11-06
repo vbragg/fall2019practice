@@ -1,7 +1,7 @@
 <?php /*Template Name: Search page */
  get_header(); ?>
 
-<div class="container">
+<div class="container search">
   <div class="row">
       <div class="col-md-12">
         <?php if(have_posts()){?>
@@ -16,6 +16,7 @@
         }else{?>
           <h1>Nothing was Found</h1>
           <p>Sorry but nothing matched your search criteria. Please try again with a different search term.</p><?php
+          get_search_form();
         }
       ?>
     </div>
