@@ -11,7 +11,6 @@
             <p>Category: <?php the_category(); ?></p>
           </div>
 
-          <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
 
           <?php the_excerpt(); ?>
           <?php
@@ -19,8 +18,7 @@
             $archive_month = get_the_time('m');
             $archive_day = get_the_time('d');
            ?>
-
-
+           <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
           <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More</a>
 
           <div class="post-featured-image">
