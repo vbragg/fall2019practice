@@ -89,6 +89,9 @@ object-fit: contain;
   margin: 0 50px !important;
 }
 
+.individual-post {
+  padding: 20px 40px; 
+}
 /**************UNIVERSAL STYLING*********************/
 
 
