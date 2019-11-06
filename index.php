@@ -7,8 +7,10 @@
         the_post(); ?>
         <div class="col-md-4">
           <div class= "post-padding">
-            <h3><?php the_title(); ?></h3>
-            <p class="category-label">Category: <?php the_category(); ?></p>
+            <div class="post-title">
+              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            </div>
+              <p class="category-label">Category: <?php the_category(); ?></p>
           </div>
 
 
