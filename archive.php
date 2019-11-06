@@ -7,7 +7,7 @@ get_header();
   <div class="row">
       <div class="col-md-12">
         <h2><?php
-          if(is_category()) {
+          if(is_category()){
             single_cat_title();
           }elseif(is_tag()) {
             single_tag_title();
@@ -16,7 +16,7 @@ get_header();
           }elseif(is_month()){
             echo "Monthly Archives: " . get_the_date('F Y');
           }elseif(is_year()){
-            echo "Yearly Archives: " . get_the)date ('Y');
+            echo "Yearly Archives: " . get_the_date ('Y');
           }else{
             echo "Archives";
           }
