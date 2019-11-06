@@ -5,7 +5,6 @@ get_header();
 
 <div class="container">
   <div class="row">
-    <main>
       <div class="col-md-12 individual-post">
       <?php if(have_posts()) {
         while(have_posts()){
@@ -22,7 +21,6 @@ get_header();
       } //ends if statement
       ?>
       </div>
-    </main>
   </div>
 </div>
 <?php get_footer(); ?>
