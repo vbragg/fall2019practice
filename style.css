@@ -31,6 +31,18 @@ header {
   margin: 0 1rem;
 }
 
+#h1-monserret {
+
+}
+
+h1#h1-gotham {
+  font-weight: bold;
+}
+
+h1.red {
+  color: #d90000;
+}
+
 /**************INDEX.PHP TEMPLATE*********************/
 
 .post-featured-image img {
@@ -74,7 +86,7 @@ object-fit: contain;
 }
 
 .woocommerce ul.products li.product {
-  margin: 0 50px !important; 
+  margin: 0 50px !important;
 }
 
 /**************UNIVERSAL STYLING*********************/
