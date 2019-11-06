@@ -11,9 +11,14 @@
             <p>Category: <?php the_category(); ?></p>
           </div>
 
-          <p><?php echo "Published: " . get_the_date(); echo " | "; echo "Written by: " . get_the_author();?></p>
+          <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>",<?php echo get_the_date(); ?></a></p>
 
           <?php the_excerpt(); ?>
+          <?php
+            $archive_year = get_the_time('Y');
+            $archieve_month = get_the_time('m');
+            $archive_day = get_the_time('d');
+           ?>
 
 
           <a class="btn btn-primary btn-sm" href="<?php the_permalink(); ?>">Read More</a>
