@@ -89,15 +89,31 @@ object-fit: contain;
   margin: 0 50px !important;
 }
 
+
+
+/**************ARCHIVE STYLING *********************/
 .individual-post {
   padding: 20px 40px;
 }
 
 .col-md-12.individual-post:nth-child(odd) {
     background: #ffe4e4;
-
-
 }
+
+h2.archive-title {
+  margin: 15px 20px;
+}
+
+/***ARCHIVE STYLING ON INDEX PAGE***/
+p.category-label, .post-categories {
+  display: inline-block;
+}
+
+ul.post-categories {
+  list-style-type: none; 
+}
+
+
 /**************UNIVERSAL STYLING*********************/
 
 

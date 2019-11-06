@@ -8,7 +8,7 @@
         <div class="col-md-4">
           <div class= "post-padding">
             <h3><?php the_title(); ?></h3>
-            <p>Category: <?php the_category(); ?></p>
+            <p class="category-label">Category: <?php the_category(); ?></p>
           </div>
 
 
