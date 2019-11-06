@@ -90,7 +90,13 @@ object-fit: contain;
 }
 
 .individual-post {
-  padding: 20px 40px; 
+  padding: 20px 40px;
+}
+
+.individual-post:nth-child(odd) {
+    background: #ffe4e4;
+    
+
 }
 /**************UNIVERSAL STYLING*********************/
 
