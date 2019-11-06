@@ -105,14 +105,18 @@ h2.archive-title {
 }
 
 /***ARCHIVE STYLING ON INDEX PAGE***/
-p.category-label, .post-categories {
+p.category-label, ul.post-categories li {
   display: inline-block;
 }
 
 ul.post-categories {
-  list-style-type: none; 
+  list-style-type: none;
+  margin-bottom: 0;
 }
 
+.posts p {
+  margin-bottom: 0;
+}
 
 /**************UNIVERSAL STYLING*********************/
 
