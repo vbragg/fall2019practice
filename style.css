@@ -118,6 +118,16 @@ ul.post-categories {
   margin-bottom: 0;
 }
 
+.post-title {
+  background: #6c6969;
+}
+
+.post-title a {
+  color: white;
+  text-decoration: none;
+  text-align: center; 
+}
+
 /**************UNIVERSAL STYLING*********************/
 
 
