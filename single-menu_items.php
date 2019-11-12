@@ -17,8 +17,23 @@
               </div>
 
               <div class = "content">
-                <?php the_content(); ?>
+                <?php the_content();
+                ?>
               </div>
+
+              <?php
+                $ingredients = the_field('ingredients'); ?>
+
+                <div class="ingredients">
+                  <?php the_field('ingredients'); ?>
+                </div>
+
+              <?php
+
+                the_field('price');
+                the_field('size');
+              ?>
+
           <?php  }//ends while loop
           }//ends th if statement
          ?>
