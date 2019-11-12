@@ -140,7 +140,7 @@ ul.post-categories {
 /**************SEARCH  STYLING *********************/
 .search {
   min-height: 600px;
-  padding: 25px 20px; 
+  padding: 25px 20px;
 }
 
 /**************UNIVERSAL STYLING*********************/
@@ -199,6 +199,12 @@ header .container {
 
 aside .widget-default-sidebar,   aside .widget-left-sidebar,   aside .widget-right-sidebar {
   margin: 20px;
+}
+
+/**************MENU STYLING *********************/
+.menu_image img {
+  text-align: left;
+  margin: 0;
 }
 
 /***************FOOTER STYLING*************/

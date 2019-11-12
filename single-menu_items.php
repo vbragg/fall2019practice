@@ -11,7 +11,7 @@
 
               <h2 class="entry-title"><?php the_title(); ?></h2>
 
-              <div class="">
+              <div class="menu-image">
                 <?php the_post_thumbnail('large'); ?>
 
               </div>
