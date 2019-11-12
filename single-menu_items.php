@@ -21,18 +21,19 @@
                 ?>
               </div>
 
-              <?php
-                $ingredients = the_field('ingredients'); ?>
 
                 <div class="ingredients">
                   <?php the_field('ingredients'); ?>
                 </div>
 
-              <?php
+                <div class="price">
+                  <?php the_field('price'); ?>
+                </div>
 
-                the_field('price');
-                the_field('size');
-              ?>
+                <div class="size">
+                  <?php the_field('size'); ?>
+                </div>
+
 
           <?php  }//ends while loop
           }//ends th if statement
