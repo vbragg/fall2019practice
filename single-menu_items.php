@@ -21,22 +21,27 @@
                 ?>
               </div>
 
-
-                <div class="ingredients">
+              <div class="row">
+                <div class="col-md-3 ingredients">
                   <h3>Ingredients</h3>
                   <?php the_field('ingredients'); ?>
                 </div>
 
-                <div class="price">
+                <div class="col-md-3 price">
                   <h3>Price</h3>
                   <?php the_field('price'); ?>
                 </div>
 
-                <div class="size">
+                <div class="col-md-3 size">
                   <h3>Size</h3>
                   <?php the_field('size'); ?>
                 </div>
 
+                <div class="col-md-3 vegan">
+                  <h3>Vegan available?</h3>
+                  <?php the_field('vegan'); ?>
+                </div>
+              </div>
 
           <?php  }//ends while loop
           }//ends th if statement
