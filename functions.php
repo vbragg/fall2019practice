@@ -211,6 +211,7 @@ function create_post_type(){
       'menu_position'     => 1,
       'can_export'        => true,
       'menu_icon'         => 'dashicons-carrot',
+      'supports'          => array('title', 'editor', 'thumbnail'),
     )
   );
 }
