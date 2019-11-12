@@ -23,14 +23,17 @@
 
 
                 <div class="ingredients">
+                  <h3>Ingredients</h3>
                   <?php the_field('ingredients'); ?>
                 </div>
 
                 <div class="price">
+                  <h3>Price</h3>
                   <?php the_field('price'); ?>
                 </div>
 
                 <div class="size">
+                  <h3>Size</h3>
                   <?php the_field('size'); ?>
                 </div>
 
