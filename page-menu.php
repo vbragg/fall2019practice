@@ -16,7 +16,7 @@ Template Post Type: page
       $loop = new WP_Query($args);
 
 
-      while($loop=>have_posts()); $loop=>the_post();   //to display loop ?>
+      while($loop->have_posts()): $loop->the_post();   //to display loop ?>
 
       <div class="col-md-5">
         <h3><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
