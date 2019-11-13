@@ -207,7 +207,7 @@ aside .widget-default-sidebar,   aside .widget-left-sidebar,   aside .widget-rig
   margin: 0;
 }
 
-.ingredients h3, .price h3, .size h3, .vegan h3{
+.ingredients h3, .price h3, .size h3, .vegan h3 {
   font-size: 24px;
   margin: 10px 0;
   text-decoration: underline;
