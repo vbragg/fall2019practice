@@ -17,9 +17,9 @@ Template Post Type: page
 
 
       while($loop->have_posts()): $loop->the_post();   //to display loop ?>
-      <div class="row">
+      <div class="row menu-item">
 
-        <div class="col-lg-5">
+        <div class="col-lg-5 menu-title-image">
           <h3><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
 
           <?php if(has_post_thumbnail()){
@@ -27,7 +27,7 @@ Template Post Type: page
           }?>
         </div>
 
-        <div class="col-lg-7">
+        <div class="col-lg-7 menu-information">
             <div class="ingredients">
               <h3>Ingredients</h3>
               <?php the_field('ingredients'); ?>
@@ -47,8 +47,11 @@ Template Post Type: page
               <h3>Vegan available?</h3>
               <?php the_field('vegan'); ?>
             </div>
-            <a href="<?php the_permalink();?>">Read More>></a>
         </div>
+
+      <div class="menu-read-more">
+        <a href="<?php the_permalink();?>">Read More>></a>
+      </div>
     </div>
 
 

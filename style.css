@@ -213,6 +213,15 @@ aside .widget-default-sidebar,   aside .widget-left-sidebar,   aside .widget-rig
   text-decoration: underline;
 }
 
+.menu-information {
+  display: flex;
+  padding: 0 20px;
+}
+
+.menu-item {
+  padding: 20px 0; 
+}
+
 
 /***************FOOTER STYLING*************/
 footer {
