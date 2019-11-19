@@ -23,13 +23,11 @@
               </div>
           <?php  }//ends while loop
           }//ends th if statement
-
-          comments_template();
          ?>
 
-
-
        </main>
+
+       <?php comments_template(); ?>
 
      </div>
   </div>
