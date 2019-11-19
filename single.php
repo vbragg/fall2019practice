@@ -23,9 +23,14 @@
               </div>
           <?php  }//ends while loop
           }//ends th if statement
+
+          comments_template();
          ?>
 
+
+
        </main>
+
      </div>
   </div>
 </div>
