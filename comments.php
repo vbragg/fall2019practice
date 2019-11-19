@@ -16,4 +16,6 @@ foreach ($comments as $comment):
 
 endforeach;
 
+commeny_form();
+
 ?>
