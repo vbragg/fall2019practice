@@ -1,6 +1,7 @@
 <?php
 
-foreach ($comments as $comment):
+foreach ($comments as $comment): ?>
+  <div class="comment"><?php
   echo '<div class="comment-avatar">';
   echo get_avatar($comment, 32);
   echo '</div>';
@@ -13,9 +14,12 @@ foreach ($comments as $comment):
 
   echo '<div class="comment-text">' . get_comment_text() .
   '</div>';
+  ?>
+</div>
 
-endforeach;
+<?php>
+  endforeach;
 
-comment_form();
+  comment_form();
 
 ?>
