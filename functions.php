@@ -234,7 +234,19 @@ function dateAndTime(){
 
 add_shortcode('time', 'dateAndTime');  //first paramater is name you are going to use inside of the shortcode. Second is name of function
 
+/*****************************************************************************************
+****************************************************************************************
 
+Create a shortcode
+
+*****************************************************************************************
+****************************************************************************************/
+
+function newsletter(){
+  return "<div class='newsletter'>" . do_shortcode('[contact-form-7 id="398" title="Contact form 1"]') . "</div>";
+}
+
+add_shortcode('newsletter', 'newsletter');
 
 
 
