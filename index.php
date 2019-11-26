@@ -32,6 +32,12 @@
     }// ends if statement
 
      ?>
+     <div class="pagination-links">
+       <?php echo paginate_links( $args ); ?>
+     </div>
+
+
+
 </div>
 </div>
 
