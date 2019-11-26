@@ -220,7 +220,19 @@ add_action('init', 'create_post_type');
 
 
 
+/*****************************************************************************************
+****************************************************************************************
 
+Create a shortcode
+
+*****************************************************************************************
+****************************************************************************************/
+
+function dateAndTime(){
+  return "The time is " . date('h:i:sa') . " on " . date('Y/m/d');
+}
+
+add_shortcode('time', 'dateAndTime');  //first paramater is name you are going to use inside of the shortcode. Second is name of function
 
 
 
