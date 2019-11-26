@@ -243,7 +243,7 @@ Create a shortcode
 ****************************************************************************************/
 
 function newsletter(){
-  return "<div class='newsletter'>" . do_shortcode('[contact-form-7 id="398" title="Contact form 1"]') . "</div>";
+  return "<div class='newsletter'> <h3> Sign up for our newslatter</h3>". do_shortcode('[contact-form-7 id="398" title="Contact form 1"]') . "<p> Thank you for registering for our newsletter</p></div>";
 }
 
 add_shortcode('newsletter', 'newsletter');
